@@ -87,3 +87,12 @@ print(f"The area of recctangle is {area}")
 calc= float(input("Enter temparature in celcius "))   # using int to convert the string (by input) into an integer
 fahrenheit = (calc * 9/5) + 32
 print(f"The temperature in Fahrenheit is: {fahrenheit} ")
+
+
+
+# a = 
+# b = a
+# # swap the numbers such that when the user enters both, "a" displays "b" and "b" displays "a"
+# one=int(input("Enter first number: "))
+# two=int(input("Enter seconf number: "))
+# print(f"The swapped version is {two} and {one}")
