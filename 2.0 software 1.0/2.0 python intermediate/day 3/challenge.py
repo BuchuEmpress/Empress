@@ -54,7 +54,9 @@ print(".." * 50)
 print("I have guessed a number between 1 and 20. \n You have a maximum of 3 trials to guess the number or I win")
 print("But if you guess right within the bound of trials, You win! ")
 print("--" * 50)
-while trials < max_trials:
+while trials < max_trials:  # reason why it's strictly less than max_trials 
+       # on the first iteration, trial which is 0 turns to 1; on second iteration which is 1 turns to 2 and lastly
+       # the third which is 2 turns to 3 and the trials end
        user_guess=int(input("Enter the number guessed by computer.\n"))
        trials += 1
        if user_guess < target:
