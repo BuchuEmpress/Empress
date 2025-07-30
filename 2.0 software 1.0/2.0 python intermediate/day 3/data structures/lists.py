@@ -54,3 +54,36 @@ specific_item= groceries.pop(1)     #remove and return item at index one
 print(f"Removed item at index one: {specific_item}")
 print(f"Final List: {groceries}")
 
+
+
+# Sample list of test scores
+test_scores = [85, 92, 78, 96, 88, 79, 94]
+
+# Getting information about the list
+print(f"Number of scores: {len(test_scores)}")
+print(f"Highest score: {max(test_scores)}")
+print(f"Lowest score: {min(test_scores)}")
+print(f"Average score: {sum(test_scores) / len(test_scores):.1f}")
+
+# Checking if items exist
+print(f"Is 85 in the list? {85 in test_scores}")
+print(f"Is 100 in the list? {100 in test_scores}")
+
+# Counting occurrences
+grades = ["A", "B", "A", "C", "B", "A", "D"]
+print(f"Number of A's: {grades.count('A')}")
+
+# Finding the position of an item
+print(f"Position of first 'B': {grades.index('B')}")
+
+# Sorting (this changes the original list)
+test_scores.sort()
+print(f"Sorted scores: {test_scores}")
+
+# Sorting in descending order
+test_scores.sort(reverse=True)
+print(f"Scores (highest to lowest): {test_scores}")
+
+# Reversing the list
+test_scores.reverse()
+print(f"Reversed list: {test_scores}")
