@@ -244,9 +244,22 @@ def analyze_numbers(numbers):
     """Analyze a list of numbers and return statistics."""
     # Your code here
     # Return a dictionary with: sum, average, min, max, even_count, odd_count
-    pass
-
+    # Analyzing a list of numbers to return the statistics (using a unique word/key to access the info)
+    summation=sum(numbers)
+    average= summation / len(numbers)
+    min_number=min(numbers)
+    max_number=max(numbers)
+    even_count= len([num for num in numbers if num % 2==0])
+    odd_count= len([num for num in numbers if num % 2 != 0])
+    return{
+        "sum":summation,
+        "Average": average,
+        "Minimum numer":min_number,
+        "Maximum number": max_number,
+        "Even Count": even_count,
+        "Odd Count": odd_count
+        }
 # Test your function
-test_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-result = analyze_numbers(test_numbers)
-print(result)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+result = analyze_numbers(numbers)
+print(f"\n\nResult: {result}")

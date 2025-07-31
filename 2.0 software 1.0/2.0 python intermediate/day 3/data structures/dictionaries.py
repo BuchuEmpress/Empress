@@ -227,7 +227,7 @@ gradebook = {}
 
 def add_student(name):
     """Add a new student to the gradebook."""
-    if name not in gradebook:
+    if name not in gradebook:                 #first checks if student is not in the gradebook  
         gradebook[name] = {}
         print(f"Added student: {name}")
     else:
@@ -266,8 +266,13 @@ def show_student_grades(student_name):
 # Test the gradebook system
 add_student("Alice")
 add_student("Bob")
+add_student("Grace")
 add_grade("Alice", "Math", 95)
 add_grade("Alice", "Science", 88)
 add_grade("Alice", "English", 92)
+add_grade("Grace", "Math", 97)
+add_grade("Grace", "Science", 98)
+add_grade("Grace", "Biochemistry", 99)
+show_student_grades("Grace")
 show_student_grades("Alice")
 
