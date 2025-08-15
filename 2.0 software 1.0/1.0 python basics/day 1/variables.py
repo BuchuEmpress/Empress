@@ -66,7 +66,7 @@ name= "Buchu Empress"
 age= 19
 favorite_meal= "Rice and Stew"
 school= "COLTECH"
-department= "CEN"
+department= "CEN" 
 best_friend= "I don't have any"
 print(f"My name is {name} and I am {age} years old. My favorite meal is {favorite_meal}, I attend the University of Bamenda and the name of my school is {school}; my department {department} and as for my best friend, {best_friend}")
 

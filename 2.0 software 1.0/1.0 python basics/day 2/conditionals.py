@@ -92,22 +92,3 @@
 #         print("Is a leap year")
     
     #print("I WILL ALWAYS DO MY ASSIGNMENT\n"*50)
-names=["Will", "Leo", "Kate", "Killian", "Akinimbom", "Gadmbom", "Jeanmbom", "colimbom", "jackmbom","afatimbom"]
-# print(names[0])
-# print(names[1])
-# print(names[2])
-       
- #  print(name)
-# if name.endswith("mbom"):
-#             print(f"We dan catch you: {name}")
-# else:
-#             print(f"Welcome to the party: {name}")
-            
-
-count=1
-for name in names:
- print(f"{count}.{name}")
-count += 1
-
-
-   

@@ -47,13 +47,13 @@ else:
     print("Invalid email format")
     
     # Text analyzer
-    text = "The quick brown fox jumps over the lazy dog"
-    print(f"Text: {text}")
-    print(f"Length: {len(text)} characters")
-    print(f"Words: {len(text.split())} words")
-    print(f"Uppercase: {text.upper()}")
-    print(f"Title case: {text.title()}")
-    print(f"Contains 'fox': {'fox' in text}") 
+text = "The quick brown fox jumps over the lazy dog"
+print(f"Text: {text}")
+print(f"Length: {len(text)} characters")
+print(f"Words: {len(text.split())} words")
+print(f"Uppercase: {text.upper()}")
+print(f"Title case: {text.title()}")
+print(f"Contains 'fox': {'fox' in text}") 
     
     
     
@@ -92,4 +92,4 @@ d=full_name[5].upper()
 half=full_name[1:4].lower()
 half2=full_name[6:8].lower()
 print(f"My full name is: {j}{half} {d}{half2}")
-    
+     
