@@ -1,0 +1,5 @@
+2024-01-01, income, Salary, 12800.0
+2024-01-01, expenses, Food, 1720.0
+2024-01-01, expenses, Transport, 800.0
+2024-01-01, budgets, Food, 400
+2024-01-01, budgets, Transport, 150
