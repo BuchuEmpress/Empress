@@ -38,7 +38,7 @@ def dictionary_error(data):
      print(f"My favorite color is: {color}")
     
     except KeyError:
-        print("Your accessing a key tha's absent")
+        print("Your accessing a key that's absent")
     pass
 
 data= {"name":"Faith", "age":20, "FavMeal": "Corn-chaff"}
